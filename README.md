@@ -1,2 +1,3 @@
 ﻿# DS_Helper
-My Saurish and this is my first repository.
+My name is  Saurish and this is my first repository.
+
