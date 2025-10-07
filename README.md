@@ -8,12 +8,18 @@ Column Detector: Automatically detect column types (numerical, categorical, text
 
 ## Installation
 Install the package using pip: 
-bash
+```bash
 pip install ds-helper
-
+```
+## Or install from source:
+```bash
+git clone https://github.com/priyadarshiniSP/ds-helper.git
+cd ds-helper
+pip install -e .
+```
 # Usage
 ## Auto Visualizer
-bash
+```bash
 import pandas as pd
 from ds_helper.auto_visualizer import plot_numerical, plot_categorical, plot_text, plot_pairplot
 
@@ -31,9 +37,9 @@ plot_text(df)
 
 # Create pairplot for numerical columns
 plot_pairplot(df)
-
+```
 ## Text Cleaner
-bash
+```bash
 from ds_helper.text_cleaner import TextCleaner
 
 # Initialize the cleaner
@@ -42,20 +48,18 @@ cleaner = TextCleaner(filler_words=['uh', 'um'], use_lemmatization=True)
 # Clean text
 clean_text = cleaner.clean("This is a sample text with some filler words like uh and um.")
 print(clean_text)
-
+```
 ## Column Detector
-bash
+```bash
 from ds_helper.column_detector import detect_column_types
 
 # Detect column types
 types = detect_column_types(df, threshold=20)
 print(types)
-
+```
 # Dependencies
 - pandas
 - matplotlib
 - seaborn
 - wordcloud
 - nltk (optional, for text cleaning with stopwords and lemmatization)
-- nltk (optional, for text cleaning with stopwords and lemmatization)
-
