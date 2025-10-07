@@ -11,12 +11,6 @@ Install the package using pip:
 ```bash
 pip install ds-helper
 ```
-## Or install from source:
-```bash
-git clone https://github.com/priyadarshiniSP/ds-helper.git
-cd ds-helper
-pip install -e .
-```
 # Usage
 ## Auto Visualizer
 ```bash
