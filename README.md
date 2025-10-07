@@ -57,3 +57,5 @@ print(types)
 - seaborn
 - wordcloud
 - nltk (optional, for text cleaning with stopwords and lemmatization)
+- nltk (optional, for text cleaning with stopwords and lemmatization)
+
